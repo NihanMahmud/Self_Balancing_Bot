@@ -212,19 +212,5 @@ This project helped me learn:
 
 ---
 
-# Folder Structure 
-
-```text
-Self-Balancing-Robot/
-?
-??? code/
-??? images/
-??? circuit_diagram/
-??? README.md
-```
-
----
-
-# Author 
-
-Made with Arduino, debugging, frustration, and patience ??
+# Author - Nihan Mahmud
+Made with ChatGPT,Claude and not will to study in PL of Term Final
