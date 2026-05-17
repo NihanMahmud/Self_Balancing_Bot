@@ -110,7 +110,7 @@ Battery -> L298N -> Arduino VIN
 
 # Step-by-Step Building Process ???
 
-## Step 1 — Build the Chassis
+## Step 1 â€” Build the Chassis
 
 - Cut the PVC sheet according to your preferred robot size
 - Attach the two yellow gear motors on opposite sides
@@ -119,7 +119,7 @@ Battery -> L298N -> Arduino VIN
 
 ---
 
-## Step 2 — Mount the Electronics
+## Step 2 â€” Mount the Electronics
 
 Attach:
 - Arduino Uno
@@ -131,7 +131,7 @@ Try to place the MPU6050 close to the center of the robot for better readings.
 
 ---
 
-## Step 3 — Complete the Wiring
+## Step 3 â€” Complete the Wiring
 
 Connect:
 - Motors to the L298N motor driver
@@ -146,7 +146,7 @@ Double-check:
 
 ---
 
-## Step 4 — Install Required Libraries
+## Step 4 â€” Install Required Libraries
 
 Open Arduino IDE and install:
 
@@ -159,7 +159,7 @@ You can install them from:
 
 ---
 
-## Step 5 — Upload the Code
+## Step 5 â€” Upload the Code
 
 1. Connect Arduino Uno to your PC using USB
 2. Open Arduino IDE
@@ -170,7 +170,7 @@ You can install them from:
 
 ---
 
-## Step 6 — Testing and PID Tuning
+## Step 6 â€” Testing and PID Tuning
 
 After uploading the code:
 
