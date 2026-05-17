@@ -1,23 +1,17 @@
-# Self Balancing Robot ????
+# Self Balancing Robot 
 
 A DIY Arduino-based self-balancing robot using an MPU6050 gyroscope + accelerometer and L298N motor driver.  
 This robot continuously measures its tilt angle and adjusts the motors in real time to balance itself upright.
 
 ---
 
-# Demo Video ??
+# Demo Video 
 
 [Watch the Robot in Action](https://www.youtube.com/shorts/nsKsRMNk8Pc)
 
 ---
 
-# Preview
-
-![Robot Preview](https://i.imgur.com/9h0K8lE.jpg)
-
----
-
-# Components Used ???
+# Components Used
 
 - 1x Arduino Uno
 - 1x MPU6050 Gyroscope + Accelerometer
@@ -33,7 +27,7 @@ This robot continuously measures its tilt angle and adjusts the motors in real t
 
 ---
 
-# Working Principle ??
+# Working Principle 
 
 The MPU6050 continuously measures the tilt angle of the robot using its gyroscope and accelerometer.
 
@@ -47,7 +41,7 @@ This creates a closed-loop balancing system similar to a Segway.
 
 ---
 
-# Circuit Connections ??
+# Circuit Connections 
 
 ## Motor Driver (L298N) to Arduino
 
@@ -77,8 +71,7 @@ This creates a closed-loop balancing system similar to a Segway.
 
 ---
 
-## Power Connections ??
-
+## Power Connections 
 - Two 3.7V batteries were used to power the robot
 - The L298N motor driver powered the Arduino through:
   - VIN
@@ -108,7 +101,7 @@ Battery -> L298N -> Arduino VIN
 
 ---
 
-# Step-by-Step Building Process ???
+# Step-by-Step Building Process 
 
 ## Step 1 — Build the Chassis
 
@@ -185,8 +178,7 @@ PID tuning is the most important part of balancing robots.
 
 ---
 
-# Challenges Faced ??
-
+# Challenges Faced 
 - PID tuning was difficult
 - Motors produced vibration
 - Weight distribution affected balancing
@@ -195,7 +187,7 @@ PID tuning is the most important part of balancing robots.
 
 ---
 
-# Lessons Learned ??
+# Lessons Learned 
 
 This project helped me learn:
 
@@ -209,8 +201,7 @@ This project helped me learn:
 
 ---
 
-# Future Improvements ??
-
+# Future Improvements 
 - Better PID tuning
 - Bluetooth control
 - Rechargeable battery module
@@ -221,7 +212,7 @@ This project helped me learn:
 
 ---
 
-# Folder Structure ??
+# Folder Structure 
 
 ```text
 Self-Balancing-Robot/
@@ -234,6 +225,6 @@ Self-Balancing-Robot/
 
 ---
 
-# Author ?????
+# Author 
 
 Made with Arduino, debugging, frustration, and patience ??
